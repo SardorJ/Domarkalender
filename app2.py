@@ -1,6 +1,6 @@
 from flask import Flask, Response
-from icalendar import Calendar, Event
-from datetime import datetime
+from icalendar import Calendar, Event, Alarm
+from datetime import datetime, timedelta
 import pytz
 import csv
 
@@ -22,9 +22,17 @@ def serve_calendar():
 
             event.add("summary", f"{row['Lag 1']} vs {row['Lag 2']}")
             event.add("dtstart", start_dt)
-            event.add("dtend", start_dt.replace(hour=start_dt.hour + 2))  # 2h match
+            event.add("dtend", start_dt + timedelta(hours=2))  # 2 timmar lång match
             event.add("location", row["Arena"])
             event.add("description", f"Match mellan {row['Lag 1']} och {row['Lag 2']} på {row['Arena']}")
+
+            # 🔔 Notis – 1 dag före match
+            alarm = Alarm()
+            alarm.add("action", "DISPLAY")
+            alarm.add("description", "Påminnelse: Match imorgon!")
+            alarm.add("trigger", timedelta(days=-1))
+            event.add_component(alarm)
+
             cal.add_component(event)
 
     return Response(cal.to_ical(), mimetype="text/calendar")
