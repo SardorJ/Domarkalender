@@ -38,4 +38,4 @@ def serve_calendar():
     return Response(cal.to_ical(), mimetype="text/calendar")
 
 if __name__ == "__main__":
-    app.run(port=5050, debug=True)
+    app.run(port=5050)
