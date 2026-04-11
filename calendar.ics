@@ -1,0 +1,208 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fogis Domarschema//
+BEGIN:VEVENT
+SUMMARY:FC Järfälla - Sollentuna FK
+DTSTART;TZID=Europe/Stockholm:20260411T160000
+DTEND;TZID=Europe/Stockholm:20260411T180000
+DESCRIPTION:Tävling: Ettan Norra\, herr 2026\nOmgång: 2\nMatchnr: 000011
+ 009\nDomare: (Dom) Magnus Römo Mella Tel: saknas\, Mobil:0725179587 (AD1)
+  Alexander Johansson Tel: saknas\, Mobil:0736008065 (AD2) Sardor Jurayev\n
+ Noteringar: 
+LOCATION:Järfällavallen 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Värmdö IF - IK Viljan Strängnäs
+DTSTART;TZID=Europe/Stockholm:20260412T140000
+DTEND;TZID=Europe/Stockholm:20260412T160000
+DESCRIPTION:Tävling: Div 1 Mellersta\, dam 2026\nOmgång: 2\nMatchnr: 000
+ 222009\nDomare: (Dom) Sardor Jurayev (AD1) Elias Bennani Jerari Tel: sakna
+ s\, Mobil:0737862647 (AD2) Kacper Eryk Kasinski Tel: saknas\, Mobil:072251
+ 3406\nNoteringar: 
+LOCATION:Värmdövallen 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ängby IF - Bollstanäs SK 1
+DTSTART;TZID=Europe/Stockholm:20260412T180000
+DTEND;TZID=Europe/Stockholm:20260412T200000
+DESCRIPTION:Tävling: P2009- 2A\nOmgång: 2\nMatchnr: 151703009\nDomare: (
+ Dom) Adel Toor Tel: saknas\, Mobil:0722519286 (Obs) Sardor Jurayev\nNoteri
+ ngar: 
+LOCATION:Ängby IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Älvsjö AIK FF - Ulricehamns IFK
+DTSTART;TZID=Europe/Stockholm:20260419T140000
+DTEND;TZID=Europe/Stockholm:20260419T160000
+DESCRIPTION:Tävling: Div 1 Mellersta\, dam 2026\nOmgång: 3\nMatchnr: 000
+ 222021\nDomare: (Dom) Sardor Jurayev (AD1) Akif Kücükgöl Tel: saknas\, 
+ Mobil:0704360977 (AD2) Tillsätts av Stockholms FF Tel: saknas\, Mobil: sa
+ knas\nNoteringar: 
+LOCATION:Älvsjö IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IFK Stockholm FK - Konyaspor KIF
+DTSTART;TZID=Europe/Stockholm:20260425T140000
+DTEND;TZID=Europe/Stockholm:20260425T160000
+DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 4\nMatchnr: 150003020\nDom
+ are: (Dom) Sardor Jurayev Lämna återbud (AD1) Adam Güclü Tel: saknas\,
+  Mobil:0762979395 (AD2) Mohammadreza Mojalal Tel:0762152263\, Mobil:076215
+ 2263\nNoteringar: 
+LOCATION:Vårbergs IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Essinge Rovers IK - Reymersholms FF
+DTSTART;TZID=Europe/Stockholm:20260426T180000
+DTEND;TZID=Europe/Stockholm:20260426T200000
+DESCRIPTION:Tävling: Herrar 7 G\nOmgång: 3\nMatchnr: 150019011\nDomare: 
+ (Dom) Ali Hashim Tel:0720125348\, Mobil:0720125348 (Obs) Sardor Jurayev L
+ ämna återbud\nNoteringar: 
+LOCATION:Mälarhöjdens IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Älvsjö AIK FF P16:2 - Hanvikens SK Röd
+DTSTART;TZID=Europe/Stockholm:20260426T200000
+DTEND;TZID=Europe/Stockholm:20260426T220000
+DESCRIPTION:Tävling: P2010- 1D\nOmgång: 4\nMatchnr: 151853023\nDomare: (
+ Dom) Christoffer Lindström Tel: saknas\, Mobil:0735293323 (Obs) Sardor Ju
+ rayev Lämna återbud\nNoteringar: 
+LOCATION:Mälarhöjdens IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kungsängens IF - Korsnäs IF FK
+DTSTART;TZID=Europe/Stockholm:20260502T150000
+DTEND;TZID=Europe/Stockholm:20260502T170000
+DESCRIPTION:Tävling: Div 2 Norra Svealand\, herr 2026\nOmgång: 6\nMatchn
+ r: 000022039\nDomare: (AD1) Kamal Berrahmoune Tel:0735139677\, Mobil:07351
+ 39677 (AD2) Sardor Jurayev\nNoteringar: 
+LOCATION:Kungsängens IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IFK Haninge - Fittja IF
+DTSTART;TZID=Europe/Stockholm:20260509T160000
+DTEND;TZID=Europe/Stockholm:20260509T180000
+DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 7\nMatch
+ nr: 000023045\nDomare: (Dom) Rasmus Ekberg Tel: saknas\, Mobil:0707878097 
+ (AD1) Emanuel Tas Tel: saknas\, Mobil:0704280556 (AD2) Sardor Jurayev\nNot
+ eringar: 
+LOCATION:Torvalla IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IF Brommapojkarna - Kristianstads DFF
+DTSTART;TZID=Europe/Stockholm:20260510T160000
+DTEND;TZID=Europe/Stockholm:20260510T180000
+DESCRIPTION:Tävling: F19 Allsvenskan 2026\nOmgång: 6\nMatchnr: 000610039
+ \nDomare: (Dom) Sardor Jurayev (AD1) Noorwali Wardak Tel: saknas\, Mobil:0
+ 765663367 (AD2) Nadr Juhar Tel:0703952261\, Mobil:0703952261\nNoteringar: 
+LOCATION:Grimsta IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rågsveds IF - FoC Farsta FF
+DTSTART;TZID=Europe/Stockholm:20260515T200000
+DTEND;TZID=Europe/Stockholm:20260515T220000
+DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 8\nMatch
+ nr: 000023055\nDomare: (AD1) Sardor Jurayev (AD2) Emil Demirörs Tel: sakn
+ as\, Mobil:0700874725\nNoteringar: 
+LOCATION:Hagsätra IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bollstanäs SK - Kvarnsvedens IK
+DTSTART;TZID=Europe/Stockholm:20260516T130000
+DTEND;TZID=Europe/Stockholm:20260516T150000
+DESCRIPTION:Tävling: Div 1 Norra\, dam 2026\nOmgång: 7\nMatchnr: 0002210
+ 43\nDomare: (Dom) Sardor Jurayev (AD1) Edvard Lönn Tel:0739843530\, Mobil
+ :0739843530 (AD2) Kacper Eryk Kasinski Tel: saknas\, Mobil:0722513406\nNot
+ eringar: 
+LOCATION:Bollstanäs IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rinkeby United FC - Kälvesta IoF
+DTSTART;TZID=Europe/Stockholm:20260522T200000
+DTEND;TZID=Europe/Stockholm:20260522T220000
+DESCRIPTION:Tävling: Herrar 4 Norra\nOmgång: 8\nMatchnr: 150001045\nDoma
+ re: (Dom) Sardor Jurayev Lämna återbud (AD1) Mohammedhasan Almahrji Tel:
+  saknas\, Mobil:0735714442 (AD2) Safwen Ouertani Tel: saknas\, Mobil:07369
+ 42285\nNoteringar: 
+LOCATION:Knutby BP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AIK Framtid FK - Värmdö IF
+DTSTART;TZID=Europe/Stockholm:20260531T190000
+DTEND;TZID=Europe/Stockholm:20260531T210000
+DESCRIPTION:Tävling: Herrar 4 Mellersta\nOmgång: 9\nMatchnr: 150002050\n
+ Domare: (Dom) Sardor Jurayev Lämna återbud (AD1) Tillsätts av Stockholm
+ s FF Tel: saknas\, Mobil: saknas (AD2) Jacob Berhanu Birke Tel: saknas\, M
+ obil:0729348727\nNoteringar: 
+LOCATION:Skytteholms IP 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
