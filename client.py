@@ -79,7 +79,7 @@ def login(
             if debug:
                 print("[debug] clicked submit")
             page.wait_for_load_state("networkidle", timeout=60_000)
-            page.wait_for_timeout(4000)
+            page.wait_for_timeout(10000)
             _click_after_login(page, debug=debug)
             table_scope = _wait_for_uppdrag_table(page, timeout_ms=20_000)
             assignments = _parse_assignments(table_scope)
@@ -88,11 +88,11 @@ def login(
 
             _write_assignments_csv(assignments, OUTPUT_PATH)
     
-            # if screenshot_path:
-            #     resolved_path = _resolve_screenshot_path(screenshot_path)
-            #     page.screenshot(path=resolved_path, full_page=True)
-            #     if debug:
-            #         print(f"[debug] screenshot saved to {resolved_path}")
+            if screenshot_path:
+                resolved_path = _resolve_screenshot_path(screenshot_path)
+                page.screenshot(path=resolved_path, full_page=True)
+                if debug:
+                    print(f"[debug] screenshot saved to {resolved_path}")
 
 
         except Exception as exc:
@@ -153,7 +153,7 @@ def _click_after_login(page, debug: bool = False) -> None:
     if debug:
         print("[debug] clicked Uppdrag tab")
     
-    page.wait_for_timeout(2000)
+    page.wait_for_timeout(4000)
 
     selector2 = "#divHeaderUnderMenyUppdragUppdrag"
     locator = page.locator(selector2)
