@@ -80,13 +80,12 @@ def login(
                 print("[debug] clicked submit")
             page.wait_for_load_state("networkidle", timeout=60_000)
             page.wait_for_timeout(10000)
-            _click_after_login(page, debug=debug)
-
             if screenshot_path:
                 resolved_path = _resolve_screenshot_path(screenshot_path)
                 page.screenshot(path=resolved_path, full_page=True)
                 if debug:
                     print(f"[debug] screenshot saved to {resolved_path}")
+            _click_after_login(page, debug=debug)
             table_scope = _wait_for_uppdrag_table(page, timeout_ms=20_000)
             assignments = _parse_assignments(table_scope)
             if debug:
@@ -98,6 +97,11 @@ def login(
 
 
         except Exception as exc:
+            if screenshot_path:
+                resolved_path = _resolve_screenshot_path(screenshot_path)
+                page.screenshot(path=resolved_path, full_page=True)
+                if debug:
+                    print(f"[debug] screenshot saved to {resolved_path}")
             browser.close()
             return LoginResult(ok=False, final_url=url, error=str(exc))
 
