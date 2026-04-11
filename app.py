@@ -3,16 +3,18 @@ from icalendar import Calendar, Event, Alarm
 from datetime import datetime, timedelta
 import pytz
 import csv
+import os
 
 app = Flask(__name__)
+CSV_PATH = os.environ.get("UPPDRAG_CSV_PATH", "uppdrag.csv")
 
-@app.route("/sardor-jurayev.ics")
-def serve_calendar():
+
+def build_calendar_from_csv(csv_path: str) -> Calendar:
     cal = Calendar()
-    cal.add("prodid", "-//Sardor Jurayevs Domarschema//")
+    cal.add("prodid", "-//Fogis Domarschema//")
     cal.add("version", "2.0")
 
-    with open("uppdrag.csv", newline='', encoding='utf-8') as csvfile:
+    with open(csv_path, newline="", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             event = Event()
@@ -43,6 +45,17 @@ def serve_calendar():
 
             cal.add_component(event)
 
+    return cal
+
+
+def write_calendar_ics(csv_path: str, output_path: str) -> None:
+    cal = build_calendar_from_csv(csv_path)
+    with open(output_path, "wb") as handle:
+        handle.write(cal.to_ical())
+
+@app.route("/sardor-jurayev.ics")
+def serve_calendar():
+    cal = build_calendar_from_csv(CSV_PATH)
     return Response(cal.to_ical(), mimetype="text/calendar")
 
 if __name__ == "__main__":

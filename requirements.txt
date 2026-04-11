@@ -2,3 +2,5 @@ Flask
 icalendar
 pytz
 gunicorn
+playwright
+python-dotenv
