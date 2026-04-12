@@ -79,7 +79,7 @@ def login(
             if debug:
                 print("[debug] clicked submit")
             page.wait_for_load_state("networkidle", timeout=60_000)
-            page.wait_for_timeout(10000)
+            page.wait_for_timeout(3000)
             # if screenshot_path:
             #     resolved_path = _resolve_screenshot_path(screenshot_path)
             #     page.screenshot(path=resolved_path, full_page=True)

@@ -32,14 +32,7 @@ jobs:
         env:
           FOGIS_USERNAME: ${{ secrets.FOGIS_USERNAME }}
           FOGIS_PASSWORD: ${{ secrets.FOGIS_PASSWORD }}
-        run: python -c "from client import get_schedule; print(get_schedule(debug=True, screenshot_path='after_login.png'))"
-
-      - name: Upload screenshot
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: after-login
-          path: after_login.png
+        run: python -c "from client import get_schedule; print(get_schedule())"
 
       - name: Build calendar
         run: python export_ics.py --csv uppdrag.csv --out calendar.ics
