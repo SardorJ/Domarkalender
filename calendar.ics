@@ -2,21 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:FC Järfälla - Sollentuna FK
-DTSTART;TZID=Europe/Stockholm:20260411T160000
-DTEND;TZID=Europe/Stockholm:20260411T180000
-DESCRIPTION:Tävling: Ettan Norra\, herr 2026\nOmgång: 2\nMatchnr: 000011
- 009\nDomare: (Dom) Magnus Römo Mella Tel: saknas\, Mobil:0725179587 (AD1)
-  Alexander Johansson Tel: saknas\, Mobil:0736008065 (AD2) Sardor Jurayev\n
- Noteringar: 
-LOCATION:Järfällavallen 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Värmdö IF - IK Viljan Strängnäs
 DTSTART;TZID=Europe/Stockholm:20260412T140000
 DTEND;TZID=Europe/Stockholm:20260412T160000
