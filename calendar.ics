@@ -2,28 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:Värmdö IF - IK Viljan Strängnäs
-DTSTART;TZID=Europe/Stockholm:20260412T140000
-DTEND;TZID=Europe/Stockholm:20260412T160000
-DESCRIPTION:Tävling: Div 1 Mellersta\, dam 2026\nOmgång: 2\nMatchnr: 000
- 222009\nDomare: (Dom) Sardor Jurayev (AD1) Elias Bennani Jerari Tel: sakna
- s\, Mobil:0737862647 (AD2) Kacper Eryk Kasinski Tel: saknas\, Mobil:072251
- 3406\nNoteringar: 
-LOCATION:Värmdövallen 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ängby IF - Bollstanäs SK 1
-DTSTART;TZID=Europe/Stockholm:20260412T180000
-DTEND;TZID=Europe/Stockholm:20260412T200000
-DESCRIPTION:Tävling: P2009- 2A\nOmgång: 2\nMatchnr: 151703009\nDomare: (
- Dom) Adel Toor Tel: saknas\, Mobil:0722519286 (Obs) Sardor Jurayev\nNoteri
- ngar: 
-LOCATION:Ängby IP 1
+SUMMARY:Bagarmossen Kärrtorp BK - Älvsjö AIK FF
+DTSTART;TZID=Europe/Stockholm:20260417T200000
+DTEND;TZID=Europe/Stockholm:20260417T220000
+DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 3\nMatchnr: 150003014\nDom
+ are: (Dom) Sardor Jurayev (AD1) Enes Yorulmaz Tel: saknas\, Mobil:07605654
+ 46 (AD2) Elma Palm Tel: saknas\, Mobil:0760407782\nNoteringar: 
+LOCATION:Kärrtorps IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Påminnelse: Match imorgon!
