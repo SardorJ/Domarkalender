@@ -16,6 +16,21 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Danderyds SK FF - Roslagskulla IF
+DTSTART;TZID=Europe/Stockholm:20260418T123000
+DTEND;TZID=Europe/Stockholm:20260418T143000
+DESCRIPTION:Tävling: Herrar 4 Norra\nOmgång: 3\nMatchnr: 150001013\nDoma
+ re: (Dom) Sardor Jurayev (AD1) Dimitrios Grigoriadis Tel:0761005390\, Mobi
+ l:0761005390 (AD2) Mohamed Abdulkaadir Abdulkaadir Tel:0793394806\, Mobil:
+ 0793394806\nNoteringar: 
+LOCATION:Danderydsvallen 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Älvsjö AIK FF - Ulricehamns IFK
 DTSTART;TZID=Europe/Stockholm:20260419T140000
 DTEND;TZID=Europe/Stockholm:20260419T160000
