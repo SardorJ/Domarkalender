@@ -31,6 +31,20 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Järfälla AIF - Kallhälls FF
+DTSTART;TZID=Europe/Stockholm:20260418T160000
+DTEND;TZID=Europe/Stockholm:20260418T180000
+DESCRIPTION:Tävling: Herrar 7 C\nOmgång: 2\nMatchnr: 150015007\nDomare: 
+ (Dom) Teddy Holmlund Tel: saknas\, Mobil:0723540067 (Obs) Sardor Jurayev\n
+ Noteringar: 
+LOCATION:Tallbohovs IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Älvsjö AIK FF - Ulricehamns IFK
 DTSTART;TZID=Europe/Stockholm:20260419T140000
 DTEND;TZID=Europe/Stockholm:20260419T160000
