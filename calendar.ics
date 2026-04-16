@@ -50,7 +50,8 @@ DTSTART;TZID=Europe/Stockholm:20260419T140000
 DTEND;TZID=Europe/Stockholm:20260419T160000
 DESCRIPTION:Tävling: Div 1 Mellersta\, dam 2026\nOmgång: 3\nMatchnr: 000
  222021\nDomare: (Dom) Sardor Jurayev (AD1) Akif Kücükgöl Tel: saknas\, 
- Mobil:0704360977\nNoteringar: 
+ Mobil:0704360977 (AD2) Yousif Basil Jollow Tel: saknas\, Mobil:0737882801\
+ nNoteringar: 
 LOCATION:Älvsjö IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
