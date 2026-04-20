@@ -2,35 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:Älvsjö AIK FF - Ulricehamns IFK
-DTSTART;TZID=Europe/Stockholm:20260419T140000
-DTEND;TZID=Europe/Stockholm:20260419T160000
-DESCRIPTION:Tävling: Div 1 Mellersta\, dam 2026\nOmgång: 3\nMatchnr: 000
- 222021\nDomare: (Dom) Sardor Jurayev (AD1) Akif Kücükgöl Tel: saknas\, 
- Mobil:0704360977 (AD2) Yousif Basil Jollow Tel: saknas\, Mobil:0737882801\
- nNoteringar: 
-LOCATION:Älvsjö IP 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Johanneshovs FF - Sorunda IF
-DTSTART;TZID=Europe/Stockholm:20260419T180000
-DTEND;TZID=Europe/Stockholm:20260419T200000
-DESCRIPTION:Tävling: Herrar 7 F\nOmgång: 2\nMatchnr: 150018006\nDomare: 
- (Dom) Emil Kaufmann Tel: saknas\, Mobil:0737775397 (Obs) Sardor Jurayev\nN
- oteringar: 
-LOCATION:Skarpnäcks SF 3
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:IFK Stockholm FK - Konyaspor KIF
 DTSTART;TZID=Europe/Stockholm:20260425T140000
 DTEND;TZID=Europe/Stockholm:20260425T160000
@@ -93,8 +64,8 @@ DTSTART;TZID=Europe/Stockholm:20260509T160000
 DTEND;TZID=Europe/Stockholm:20260509T180000
 DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 7\nMatch
  nr: 000023045\nDomare: (Dom) Rasmus Ekberg Tel: saknas\, Mobil:0707878097 
- (AD1) Emanuel Tas Tel: saknas\, Mobil:0704280556 (AD2) Sardor Jurayev\nNot
- eringar: 
+ (AD1) Gabriel Lahdo Tel: saknas\, Mobil:0729143520 (AD2) Sardor Jurayev\nN
+ oteringar: 
 LOCATION:Torvalla IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -154,6 +125,20 @@ DESCRIPTION:Tävling: Herrar 4 Norra\nOmgång: 8\nMatchnr: 150001045\nDoma
   saknas\, Mobil:0735714442 (AD2) Safwen Ouertani Tel: saknas\, Mobil:07369
  42285\nNoteringar: 
 LOCATION:Knutby BP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Enskede IK - Ängby IF
+DTSTART;TZID=Europe/Stockholm:20260530T130000
+DTEND;TZID=Europe/Stockholm:20260530T150000
+DESCRIPTION:Tävling: Div 2 Norra Svealand\, herr 2026\nOmgång: 10\nMatch
+ nr: 000022065\nDomare: (AD1) Sardor Jurayev (AD2) Saad Hisnawi Tel: saknas
+ \, Mobil:0725371055\nNoteringar: 
+LOCATION:Enskede IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Påminnelse: Match imorgon!
