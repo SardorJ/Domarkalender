@@ -35,9 +35,11 @@ jobs:
         run: python -c "from client import get_schedule; print(get_schedule())"
 
       - name: Build calendar
+        if: ${{ hashFiles('uppdrag.csv') != '' }}
         run: python export_ics.py --csv uppdrag.csv --out calendar.ics
 
       - name: Commit updates
+        if: ${{ hashFiles('calendar.ics') != '' }}
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git add calendar.ics
@@ -46,3 +48,11 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+      - name: Skip notes
+        if: ${{ hashFiles('uppdrag.csv') == '' }}
+        run: echo "No uppdrag.csv found; skipping calendar build."
+
+      - name: Skip notes
+        if: ${{ hashFiles('calendar.ics') == '' }}
+        run: echo "No calendar.ics generated; skipping commit."
