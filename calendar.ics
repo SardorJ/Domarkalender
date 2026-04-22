@@ -21,8 +21,8 @@ SUMMARY:Essinge Rovers IK - Reymersholms FF
 DTSTART;TZID=Europe/Stockholm:20260426T180000
 DTEND;TZID=Europe/Stockholm:20260426T200000
 DESCRIPTION:Tävling: Herrar 7 G\nOmgång: 3\nMatchnr: 150019011\nDomare: 
- (Dom) Robin Yorulmaz Tel: saknas\, Mobil:0760565436 (Obs) Sardor Jurayev L
- ämna återbud\nNoteringar: 
+ (Dom) Robin Yorulmaz Tel: saknas\, Mobil:0760565436 (Obs) Sardor Jurayev\n
+ Noteringar: 
 LOCATION:Mälarhöjdens IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -36,7 +36,7 @@ DTSTART;TZID=Europe/Stockholm:20260426T200000
 DTEND;TZID=Europe/Stockholm:20260426T220000
 DESCRIPTION:Tävling: P2010- 1D\nOmgång: 4\nMatchnr: 151853023\nDomare: (
  Dom) Christoffer Lindström Tel: saknas\, Mobil:0735293323 (Obs) Sardor Ju
- rayev Lämna återbud\nNoteringar: 
+ rayev\nNoteringar: 
 LOCATION:Mälarhöjdens IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
