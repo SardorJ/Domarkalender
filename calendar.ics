@@ -74,6 +74,20 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Djurgårdens IF FF - Spånga IS FK A
+DTSTART;TZID=Europe/Stockholm:20260510T083000
+DTEND;TZID=Europe/Stockholm:20260510T103000
+DESCRIPTION:Tävling: P2012- 1S (11m11)\nOmgång: 6\nMatchnr: 152155034\nD
+ omare: (Dom) Rasmus Henriksson Berggren Tel: saknas\, Mobil:0739241267 (Ob
+ s) Sardor Jurayev Lämna återbud\nNoteringar: 
+LOCATION:Hjorthagens IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:IF Brommapojkarna - Kristianstads DFF
 DTSTART;TZID=Europe/Stockholm:20260510T160000
 DTEND;TZID=Europe/Stockholm:20260510T180000
