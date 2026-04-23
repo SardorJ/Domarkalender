@@ -49,8 +49,9 @@ SUMMARY:Kungsängens IF - Korsnäs IF FK
 DTSTART;TZID=Europe/Stockholm:20260502T150000
 DTEND;TZID=Europe/Stockholm:20260502T170000
 DESCRIPTION:Tävling: Div 2 Norra Svealand\, herr 2026\nOmgång: 6\nMatchn
- r: 000022039\nDomare: (AD1) Kamal Berrahmoune Tel:0735139677\, Mobil:07351
- 39677 (AD2) Sardor Jurayev\nNoteringar: 
+ r: 000022039\nDomare: (Dom) Ali Shahedy Fard Tel: saknas\, Mobil:073876215
+ 5 (AD1) Kamal Berrahmoune Tel:0735139677\, Mobil:0735139677 (AD2) Sardor J
+ urayev\nNoteringar: 
 LOCATION:Kungsängens IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
