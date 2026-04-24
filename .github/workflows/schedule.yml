@@ -41,12 +41,12 @@ jobs:
       - name: Commit updates
         if: ${{ hashFiles('calendar.ics') != '' }}
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git add calendar.ics
+          git add calendar.ics
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
             git -c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" commit -m "Update calendar data"
             git push
-          else
-            echo "No changes to commit"
           fi
 
       - name: Skip notes
