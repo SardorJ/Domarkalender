@@ -35,9 +35,8 @@ SUMMARY:Solna FC - IFK Aspudden-Tellus
 DTSTART;TZID=Europe/Stockholm:20260503T190000
 DTEND;TZID=Europe/Stockholm:20260503T210000
 DESCRIPTION:Tävling: Herrar 4 Mellersta\nOmgång: 5\nMatchnr: 150002029\n
- Domare: (Dom) Sardor Jurayev Lämna återbud (AD1) Avya Handa Tel: saknas\
- , Mobil:0735017496 (AD2) Leo Solheim Tel:0720080189\, Mobil:0720080189\nNo
- teringar: 
+ Domare: (Dom) Sardor Jurayev (AD1) Avya Handa Tel: saknas\, Mobil:07350174
+ 96 (AD2) Leo Solheim Tel:0720080189\, Mobil:0720080189\nNoteringar: 
 LOCATION:Skytteholms IP 2
 BEGIN:VALARM
 ACTION:DISPLAY
