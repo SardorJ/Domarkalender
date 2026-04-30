@@ -92,8 +92,9 @@ SUMMARY:Rågsveds IF - FoC Farsta FF
 DTSTART;TZID=Europe/Stockholm:20260515T200000
 DTEND;TZID=Europe/Stockholm:20260515T220000
 DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 8\nMatch
- nr: 000023055\nDomare: (AD1) Sardor Jurayev (AD2) Emil Demirörs Tel: sakn
- as\, Mobil:0700874725\nNoteringar: 
+ nr: 000023055\nDomare: (Dom) Theo Edung Tel: saknas\, Mobil:0730326988 (AD
+ 1) Sardor Jurayev (AD2) Emil Demirörs Tel: saknas\, Mobil:0700874725\nNot
+ eringar: 
 LOCATION:Älvsjö IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -136,8 +137,9 @@ SUMMARY:Enskede IK - Ängby IF
 DTSTART;TZID=Europe/Stockholm:20260530T130000
 DTEND;TZID=Europe/Stockholm:20260530T150000
 DESCRIPTION:Tävling: Div 2 Norra Svealand\, herr 2026\nOmgång: 10\nMatch
- nr: 000022065\nDomare: (AD1) Sardor Jurayev (AD2) Saad Hisnawi Tel: saknas
- \, Mobil:0725371055\nNoteringar: 
+ nr: 000022065\nDomare: (Dom) Jovan Bjelajac Tel:0768866140\, Mobil:0768866
+ 140 (AD1) Sardor Jurayev (AD2) Saad Hisnawi Tel: saknas\, Mobil:0725371055
+ \nNoteringar: 
 LOCATION:Enskede IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
