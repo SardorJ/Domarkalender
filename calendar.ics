@@ -16,14 +16,14 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kungsängens IF - Korsnäs IF FK
-DTSTART;TZID=Europe/Stockholm:20260502T150000
-DTEND;TZID=Europe/Stockholm:20260502T170000
-DESCRIPTION:Tävling: Div 2 Norra Svealand\, herr 2026\nOmgång: 6\nMatchn
- r: 000022039\nDomare: (Dom) Ali Shahedy Fard Tel: saknas\, Mobil:073876215
- 5 (AD1) Kamal Berrahmoune Tel:0735139677\, Mobil:0735139677 (AD2) Sardor J
- urayev\nNoteringar: 
-LOCATION:Kungsängens IP 1
+SUMMARY:Rågsveds IF - Karlslunds IF FK
+DTSTART;TZID=Europe/Stockholm:20260502T160000
+DTEND;TZID=Europe/Stockholm:20260502T180000
+DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 6\nMatch
+ nr: 000023040\nDomare: (Dom) Elias Ekström Tel: saknas\, Mobil:0730522710
+  (AD1) Sardor Jurayev (AD2) Yassin Oummadi Tel: saknas\, Mobil:0707426344\
+ nNoteringar: 
+LOCATION:Hagsätra IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Påminnelse: Match imorgon!
