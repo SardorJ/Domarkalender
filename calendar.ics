@@ -79,8 +79,9 @@ SUMMARY:IFK Lidingö FK - Västerås SK FK
 DTSTART;TZID=Europe/Stockholm:20260519T191500
 DTEND;TZID=Europe/Stockholm:20260519T211500
 DESCRIPTION:Tävling: Svenska Cupen 2026/27 omg. 1-3\nOmgång: 1\nMatchnr:
-  000361007\nDomare: (AD1) Abwe Masimango Tel: saknas\, Mobil:0739486400 (A
- D2) Sardor Jurayev\nNoteringar: 
+  000361007\nDomare: (Dom) Sardor Jurayev (AD1) Tillsätts av Stockholms FF
+  Tel: saknas\, Mobil: saknas (AD2) Tillsätts av Stockholms FF Tel: saknas
+ \, Mobil: saknas\nNoteringar: 
 LOCATION:Lidingövallen 2
 BEGIN:VALARM
 ACTION:DISPLAY
