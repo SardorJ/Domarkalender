@@ -74,14 +74,14 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bollstanäs SK - Kvarnsvedens IK
-DTSTART;TZID=Europe/Stockholm:20260516T130000
-DTEND;TZID=Europe/Stockholm:20260516T150000
-DESCRIPTION:Tävling: Div 1 Norra\, dam 2026\nOmgång: 7\nMatchnr: 0002210
- 43\nDomare: (Dom) Sardor Jurayev (AD1) Edvard Lönn Tel:0739843530\, Mobil
- :0739843530 (AD2) Kacper Eryk Kasinski Tel: saknas\, Mobil:0722513406\nNot
- eringar: 
-LOCATION:Bollstanäs IP 1
+SUMMARY:Vasalund IF - IK Brage
+DTSTART;TZID=Europe/Stockholm:20260516T160000
+DTEND;TZID=Europe/Stockholm:20260516T180000
+DESCRIPTION:Tävling: P19 Superettan Norra 2026\nOmgång: 7\nMatchnr: 0004
+ 32049\nDomare: (Dom) Sardor Jurayev (AD1) Alexander Kaumi Tel: saknas\, Mo
+ bil:0762918877 (AD2) Philip Langdén Tel: saknas\, Mobil:0730599559\nNoter
+ ingar: 
+LOCATION:Skytteholms IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Påminnelse: Match imorgon!
@@ -93,9 +93,9 @@ SUMMARY:IFK Lidingö FK - Västerås SK FK
 DTSTART;TZID=Europe/Stockholm:20260519T191500
 DTEND;TZID=Europe/Stockholm:20260519T211500
 DESCRIPTION:Tävling: Svenska Cupen 2026/27 omg. 1-3\nOmgång: 1\nMatchnr:
-  000361007\nDomare: (Dom) Sardor Jurayev (AD1) Tillsätts av Stockholms FF
-  Tel: saknas\, Mobil: saknas (AD2) Tillsätts av Stockholms FF Tel: saknas
- \, Mobil: saknas\nNoteringar: 
+  000361007\nDomare: (Dom) Sardor Jurayev (AD1) Sara Hagar Tel:0793588393\,
+  Mobil:0793588393 (AD2) Isak Alm Tel: saknas\, Mobil:0761708987\nNoteringa
+ r: 
 LOCATION:Lidingövallen 2
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -142,6 +142,20 @@ DESCRIPTION:Tävling: Herrar 4 Mellersta\nOmgång: 9\nMatchnr: 150002050\n
   saknas\, Mobil:0761047170 (AD2) Jacob Berhanu Birke Tel: saknas\, Mobil:0
  729348727\nNoteringar: 
 LOCATION:Skytteholms IP 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Nacka FC - IFK Haninge
+DTSTART;TZID=Europe/Stockholm:20260606T120000
+DTEND;TZID=Europe/Stockholm:20260606T140000
+DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 11\nMatc
+ hnr: 000023074\nDomare: (AD1) Sardor Jurayev (AD2) Kamal Berrahmoune Tel:0
+ 735139677\, Mobil:0735139677\nNoteringar: 
+LOCATION:Myrsjö IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Påminnelse: Match imorgon!
