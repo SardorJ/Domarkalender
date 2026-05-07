@@ -163,12 +163,56 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Sickla IF - Värmdö IF
+DTSTART;TZID=Europe/Stockholm:20260612T201500
+DTEND;TZID=Europe/Stockholm:20260612T221500
+DESCRIPTION:Tävling: Herrar 4 Mellersta\nOmgång: 11\nMatchnr: 150002066\
+ nDomare: (Dom) Sardor Jurayev Lämna återbud (AD1) Tor Vilmar Tel: saknas
+ \, Mobil:0733450407 (AD2) Alexander Kaumi Tel: saknas\, Mobil:0762918877\n
+ Noteringar: 
+LOCATION:Saltsjöbadens IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Enskede IK - IK Franke
 DTSTART;TZID=Europe/Stockholm:20260613T130000
 DTEND;TZID=Europe/Stockholm:20260613T150000
 DESCRIPTION:Tävling: Div 2 Norra Svealand\, herr 2026\nOmgång: 12\nMatch
  nr: 000022079\nDomare: (AD1) Sardor Jurayev (AD2) Agaton Kopparberg Tel: s
  aknas\, Mobil:0707507436\nNoteringar: 
+LOCATION:Enskede IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Norsborg FC - Älvsjö AIK FF
+DTSTART;TZID=Europe/Stockholm:20260621T170000
+DTEND;TZID=Europe/Stockholm:20260621T190000
+DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 12\nMatchnr: 150003070\nDo
+ mare: (Dom) Sardor Jurayev Lämna återbud (AD1) Yosef Abbas Tel: saknas\,
+  Mobil:0706064020 (AD2) Tillsätts av Stockholms FF Tel: saknas\, Mobil: s
+ aknas\nNoteringar: 
+LOCATION:Kärsby IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Enskede IK - BK Häcken
+DTSTART;TZID=Europe/Stockholm:20260725T150000
+DTEND;TZID=Europe/Stockholm:20260725T170000
+DESCRIPTION:Tävling: Elitettan 2026\nOmgång: 11\nMatchnr: 000206075\nDom
+ are: (AD1) Abwe Masimango Tel: saknas\, Mobil:0739486400 (AD2) Sardor Jura
+ yev\nNoteringar: 
 LOCATION:Enskede IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -191,13 +235,52 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Karlbergs BK - GIF Sundsvall
+DTSTART;TZID=Europe/Stockholm:20260809T140000
+DTEND;TZID=Europe/Stockholm:20260809T160000
+DESCRIPTION:Tävling: P19 Superettan Norra 2026\nOmgång: 15\nMatchnr: 000
+ 432103\nDomare: (Dom) Sardor Jurayev\nNoteringar: 
+LOCATION:Stadshagens IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Fittja IF - Rågsveds IF
 DTSTART;TZID=Europe/Stockholm:20260816T140000
 DTEND;TZID=Europe/Stockholm:20260816T160000
 DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 17\nMatc
- hnr: 000023114\nDomare: (AD1) Sardor Jurayev (AD2) Hussein Al-Taai Tel:073
- 9352628\, Mobil:0739352628\nNoteringar: 
+ hnr: 000023114\nDomare: (AD1) Sardor Jurayev (AD2) Sawez Ahmad Tel: saknas
+ \, Mobil:0737132751\nNoteringar: 
 LOCATION:Fittja BP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IFK Tumba FK - FC Segeltorp (f.d. Botkyrka Kuluspor)
+DTSTART;TZID=Europe/Stockholm:20260819T200000
+DTEND;TZID=Europe/Stockholm:20260819T220000
+DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 15\nMatchnr: 150003090\nDo
+ mare: (Dom) Sardor Jurayev Lämna återbud\nNoteringar: 
+LOCATION:Storvretens IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FC Segeltorp (f.d. Botkyrka Kuluspor) - Segeltorps IF Fotboll
+DTSTART;TZID=Europe/Stockholm:20260822T140000
+DTEND;TZID=Europe/Stockholm:20260822T160000
+DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 16\nMatchnr: 150003093\nDo
+ mare: (Dom) Sardor Jurayev Lämna återbud\nNoteringar: 
+LOCATION:Segeltorps IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Påminnelse: Match imorgon!
