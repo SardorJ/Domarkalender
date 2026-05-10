@@ -2,35 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:Boo FF 2 1 - Segeltorps IF Fotboll Blå
-DTSTART;TZID=Europe/Stockholm:20260509T101500
-DTEND;TZID=Europe/Stockholm:20260509T121500
-DESCRIPTION:Tävling: P2010- 1D\nOmgång: 9\nMatchnr: 151853052\nDomare: (
- Dom) Memet Öztürk Tel: saknas\, Mobil:0735682369 (Obs) Sardor Jurayev\nN
- oteringar: 
-LOCATION:Myrsjö IP 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:IFK Haninge - Fittja IF
-DTSTART;TZID=Europe/Stockholm:20260509T160000
-DTEND;TZID=Europe/Stockholm:20260509T180000
-DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 7\nMatch
- nr: 000023045\nDomare: (Dom) Rasmus Ekberg Tel: saknas\, Mobil:0707878097 
- (AD1) Gabriel Lahdo Tel: saknas\, Mobil:0729143520 (AD2) Sardor Jurayev\nN
- oteringar: 
-LOCATION:Torvalla IP 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Djurgårdens IF FF - Spånga IS FK A
 DTSTART;TZID=Europe/Stockholm:20260510T103000
 DTEND;TZID=Europe/Stockholm:20260510T123000
