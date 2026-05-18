@@ -32,6 +32,21 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:IFK Stocksund - Assyriska FF
+DTSTART;TZID=Europe/Stockholm:20260523T160000
+DTEND;TZID=Europe/Stockholm:20260523T180000
+DESCRIPTION:Tävling: Ettan Norra\, herr 2026\nOmgång: 9\nMatchnr: 000011
+ 069\nDomare: (Dom) Elvir Gërxhaliu Tel: saknas\, Mobil:0707562711 (AD1) S
+ ardor Jurayev (AD2) Teodor Jonsson Tel:0739837884\, Mobil:0739837884\nNote
+ ringar: 
+LOCATION:Danderyds Gymnasiums IP 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Enskede IK - Ängby IF
 DTSTART;TZID=Europe/Stockholm:20260530T130000
 DTEND;TZID=Europe/Stockholm:20260530T150000
