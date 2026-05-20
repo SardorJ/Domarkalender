@@ -66,8 +66,9 @@ SUMMARY:Nacka FC - IFK Haninge
 DTSTART;TZID=Europe/Stockholm:20260606T120000
 DTEND;TZID=Europe/Stockholm:20260606T140000
 DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 11\nMatc
- hnr: 000023074\nDomare: (AD1) Sardor Jurayev (AD2) Kamal Berrahmoune Tel:0
- 735139677\, Mobil:0735139677\nNoteringar: 
+ hnr: 000023074\nDomare: (Dom) Theo Edung Tel: saknas\, Mobil:0730326988 (A
+ D1) Sardor Jurayev (AD2) Kamal Berrahmoune Tel:0735139677\, Mobil:07351396
+ 77\nNoteringar: 
 LOCATION:Myrsjö IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -95,8 +96,9 @@ SUMMARY:Enskede IK - IK Franke
 DTSTART;TZID=Europe/Stockholm:20260613T130000
 DTEND;TZID=Europe/Stockholm:20260613T150000
 DESCRIPTION:Tävling: Div 2 Norra Svealand\, herr 2026\nOmgång: 12\nMatch
- nr: 000022079\nDomare: (AD1) Sardor Jurayev (AD2) Agaton Kopparberg Tel: s
- aknas\, Mobil:0707507436\nNoteringar: 
+ nr: 000022079\nDomare: (Dom) Kilian Störzel Tel: saknas\, Mobil:073069256
+ 1 (AD1) Sardor Jurayev (AD2) Agaton Kopparberg Tel: saknas\, Mobil:0707507
+ 436\nNoteringar: 
 LOCATION:Enskede IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
