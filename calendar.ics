@@ -2,21 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:IFK Lidingö FK - Västerås SK FK
-DTSTART;TZID=Europe/Stockholm:20260519T191500
-DTEND;TZID=Europe/Stockholm:20260519T211500
-DESCRIPTION:Tävling: Svenska Cupen 2026/27 omg. 1-3\nOmgång: 1\nMatchnr:
-  000361007\nDomare: (Dom) Sardor Jurayev (AD1) Sara Hagar Tel:0793588393\,
-  Mobil:0793588393 (AD2) Isak Alm Tel: saknas\, Mobil:0761708987\nNoteringa
- r: 
-LOCATION:Lidingövallen 2
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rinkeby United FC - Kälvesta IoF
 DTSTART;TZID=Europe/Stockholm:20260522T200000
 DTEND;TZID=Europe/Stockholm:20260522T220000
