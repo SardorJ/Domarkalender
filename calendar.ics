@@ -51,9 +51,8 @@ SUMMARY:Sickla IF - Värmdö IF
 DTSTART;TZID=Europe/Stockholm:20260612T201500
 DTEND;TZID=Europe/Stockholm:20260612T221500
 DESCRIPTION:Tävling: Herrar 4 Mellersta\nOmgång: 11\nMatchnr: 150002066\
- nDomare: (Dom) Sardor Jurayev Lämna återbud (AD1) Tor Vilmar Tel: saknas
- \, Mobil:0733450407 (AD2) Alexander Kaumi Tel: saknas\, Mobil:0762918877\n
- Noteringar: 
+ nDomare: (Dom) Sardor Jurayev Lämna återbud (AD2) Alexander Kaumi Tel: s
+ aknas\, Mobil:0762918877\nNoteringar: 
 LOCATION:Saltsjöbadens IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
