@@ -67,7 +67,8 @@ DTSTART;TZID=Europe/Stockholm:20260621T170000
 DTEND;TZID=Europe/Stockholm:20260621T190000
 DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 12\nMatchnr: 150003070\nDo
  mare: (Dom) Sardor Jurayev Lämna återbud (AD1) Yosef Abbas Tel: saknas\,
-  Mobil:0706064020\nNoteringar: 
+  Mobil:0706064020 (AD2) Kaan Bozdag Tel: saknas\, Mobil:0700323221\nNoteri
+ ngar: 
 LOCATION:Kärsby IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
