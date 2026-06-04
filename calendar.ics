@@ -47,6 +47,21 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Djurgården - IF Brommapojkarna
+DTSTART;TZID=Europe/Stockholm:20260618T110000
+DTEND;TZID=Europe/Stockholm:20260618T130000
+DESCRIPTION:Tävling: Ligacupen Elit Norra\nOmgång: 1\nMatchnr: 000400001
+ \nDomare: (Dom) Fawad Rahimi Tel:0739753161\, Mobil:0739753161 (AD1) Sardo
+ r Jurayev (AD2) Tillsätts av C4 Stockholm Tel: saknas\, Mobil: saknas\nNo
+ teringar: 
+LOCATION:Kaknäs 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Norsborg FC - Älvsjö AIK FF
 DTSTART;TZID=Europe/Stockholm:20260621T170000
 DTEND;TZID=Europe/Stockholm:20260621T190000
