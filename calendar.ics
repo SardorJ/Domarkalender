@@ -17,6 +17,21 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Konyaspor KIF - Athletic Eskilstuna
+DTSTART;TZID=Europe/Stockholm:20260609T193000
+DTEND;TZID=Europe/Stockholm:20260609T213000
+DESCRIPTION:Tävling: Svenska Cupen 2026/27 omg. 1-2\nOmgång: 1\nMatchnr:
+  000350013\nDomare: (Dom) Rasmus Ekberg Tel: saknas\, Mobil:0707878097 (AD
+ 1) Sardor Jurayev (AD2) Fredrik Vesterholm Tel: saknas\, Mobil:0760217717\
+ nNoteringar: 
+LOCATION:Alby BP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Sickla IF - Värmdö IF
 DTSTART;TZID=Europe/Stockholm:20260612T201500
 DTEND;TZID=Europe/Stockholm:20260612T221500
