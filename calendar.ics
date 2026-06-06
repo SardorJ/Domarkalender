@@ -166,7 +166,8 @@ SUMMARY:IFK Tumba FK - FC Segeltorp (f.d. Botkyrka Kuluspor)
 DTSTART;TZID=Europe/Stockholm:20260819T200000
 DTEND;TZID=Europe/Stockholm:20260819T220000
 DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 15\nMatchnr: 150003090\nDo
- mare: (Dom) Sardor Jurayev Lämna återbud\nNoteringar: 
+ mare: (Dom) Sardor Jurayev Lämna återbud (AD1) Tillsätts av Stockholms 
+ FF Tel: saknas\, Mobil: saknas\nNoteringar: 
 LOCATION:Storvretens IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
