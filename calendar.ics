@@ -108,7 +108,9 @@ SUMMARY:Karlbergs BK - GIF Sundsvall
 DTSTART;TZID=Europe/Stockholm:20260809T140000
 DTEND;TZID=Europe/Stockholm:20260809T160000
 DESCRIPTION:Tävling: P19 Superettan Norra 2026\nOmgång: 15\nMatchnr: 000
- 432103\nDomare: (Dom) Sardor Jurayev\nNoteringar: 
+ 432103\nDomare: (Dom) Sardor Jurayev (AD1) Viktor Ilija Colak Tel: saknas\
+ , Mobil:0761047170 (AD2) Olle Bergman Tel: saknas\, Mobil:0723361015\nNote
+ ringar: 
 LOCATION:Stadshagens IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
