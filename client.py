@@ -5,14 +5,18 @@ import os
 from playwright.sync_api import sync_playwright
 import time
 import csv
+from pathlib import Path
+
 LOGIN_URL = "https://fogis.svenskfotboll.se/FogisDomarklient/Start/Frameset"
-OUTPUT_PATH = "uppdrag.csv"
+DEFAULT_OUTPUT_PATH = "uppdrag.csv"
+
 
 @dataclass
 class LoginResult:
     ok: bool
     final_url: str
     error: Optional[str] = None
+
 
 @dataclass
 class Assignment:
@@ -25,8 +29,10 @@ class Assignment:
     referees: str
     notes: str
 
+
 def _normalize_ws(text: str) -> str:
     return " ".join(text.split())
+
 
 def _cell_text(cell, strip_links: bool = False) -> str:
     script = """
@@ -43,7 +49,6 @@ def _cell_text(cell, strip_links: bool = False) -> str:
     return _normalize_ws(text)
 
 
-
 def _has_dotenv() -> bool:
     try:
         importlib.import_module("dotenv")
@@ -51,10 +56,24 @@ def _has_dotenv() -> bool:
     except ModuleNotFoundError:
         return False
 
+
 def _resolve_screenshot_path(path: str) -> str:
     directory = os.path.dirname(path) or "."
     os.makedirs(directory, exist_ok=True)
     return os.path.abspath(path)
+
+
+def _find_locator(page, selector: str):
+    """Helper to find a locator in the main page or any frame."""
+    loc = page.locator(selector)
+    if loc.count() > 0:
+        return loc.first
+    for frame in page.frames:
+        floc = frame.locator(selector)
+        if floc.count() > 0:
+            return floc.first
+    return None
+
 
 def login(
     username: str,
@@ -63,6 +82,7 @@ def login(
     headless: bool = True,
     debug: bool = False,
     screenshot_path: Optional[str] = None,
+    output_path: str = DEFAULT_OUTPUT_PATH,
 ) -> LoginResult:
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=headless)
@@ -70,49 +90,36 @@ def login(
         page = context.new_page()
         page.goto(url, wait_until="networkidle", timeout=60_000)
 
-
         try:
-            user_input = _user_input(page, username=username, debug=debug) 
-            password_input = _password_input(page, password=password, debug=debug)
-            login_button = _login_button(page, debug=debug)
+            _user_input(page, username=username, debug=debug)
+            _password_input(page, password=password, debug=debug)
+            _login_button(page, debug=debug)
 
             if debug:
                 print("[debug] clicked submit")
             page.wait_for_load_state("networkidle", timeout=60_000)
             page.wait_for_timeout(3000)
-            # if screenshot_path:
-            #     resolved_path = _resolve_screenshot_path(screenshot_path)
-            #     page.screenshot(path=resolved_path, full_page=True)
-            #     if debug:
-            #         print(f"[debug] screenshot saved to {resolved_path}")
+
             _click_after_login(page, debug=debug)
             table_scope = _wait_for_uppdrag_table(page, timeout_ms=20_000)
             assignments = _parse_assignments(table_scope)
             if debug:
                 print(f"[debug] assignments found: {len(assignments)}")
 
-            _write_assignments_csv(assignments, OUTPUT_PATH)
-    
-
-
+            _write_assignments_csv(assignments, output_path)
 
         except Exception as exc:
-            # if screenshot_path:
-            #     resolved_path = _resolve_screenshot_path(screenshot_path)
-            #     page.screenshot(path=resolved_path, full_page=True)
-            #     if debug:
-            #         print(f"[debug] screenshot saved to {resolved_path}")
             browser.close()
             return LoginResult(ok=False, final_url=url, error=str(exc))
 
         final_url = page.url
         if debug:
-            print(f"[debug] final url: final_url")
+            print(f"[debug] final url: {final_url}")
         browser.close()
         return LoginResult(ok=True, final_url=final_url)
 
 
-def _user_input(page, username: str, debug: bool = False) -> None :
+def _user_input(page, username: str, debug: bool = False) -> None:
     selector = "#Username"
     locator = page.locator(selector)
     if locator.is_visible():
@@ -122,7 +129,8 @@ def _user_input(page, username: str, debug: bool = False) -> None :
     else:
         raise ValueError(f"Selector {selector} is not visible")
 
-def _password_input(page, password: str, debug: bool = False) -> None :
+
+def _password_input(page, password: str, debug: bool = False) -> None:
     selector = "#Password"
     locator = page.locator(selector)
     if locator.is_visible():
@@ -132,7 +140,8 @@ def _password_input(page, password: str, debug: bool = False) -> None :
     else:
         raise ValueError(f"Selector {selector} is not visible")
 
-def _login_button(page, debug: bool = False) -> None :
+
+def _login_button(page, debug: bool = False) -> None:
     locator = page.get_by_role("button", name="Logga in")
     if locator.is_visible():
         locator.click()
@@ -143,34 +152,20 @@ def _login_button(page, debug: bool = False) -> None :
 
 
 def _click_after_login(page, debug: bool = False) -> None:
-    selector = "#FogisDomarMeny1_divDomareUppdrag"
-    locator = page.locator(selector)
-    if locator.count() == 0:
-        for frame in page.frames:
-            frame_locator = frame.locator(selector)
-            if frame_locator.count() > 0:
-                locator = frame_locator
-                break
-
-    if locator.count() == 0:
+    # First menu item
+    locator = _find_locator(page, "#FogisDomarMeny1_divDomareUppdrag")
+    if locator is None or locator.count() == 0:
         raise ValueError("Uppdrag-tabben hittades inte")
 
     locator.first.click()
     if debug:
         print("[debug] clicked Uppdrag tab")
-    
+
     page.wait_for_timeout(4000)
 
-    selector2 = "#divHeaderUnderMenyUppdragUppdrag"
-    locator = page.locator(selector2)
-    if locator.count() == 0:
-        for frame in page.frames:
-            frame_locator = frame.locator(selector2)
-            if frame_locator.count() > 0:
-                locator = frame_locator
-                break
-
-    if locator.count() == 0:
+    # Submenu item
+    locator = _find_locator(page, "#divHeaderUnderMenyUppdragUppdrag")
+    if locator is None or locator.count() == 0:
         raise ValueError("Uppdrag-tabben hittades inte")
 
     locator.first.click()
@@ -194,6 +189,7 @@ def _wait_for_uppdrag_table(page, timeout_ms: int = 20_000):
         page.wait_for_timeout(250)
 
     raise ValueError("Uppdrag-tabellen hittades inte (timeout)")
+
 
 def _parse_assignments(table_scope) -> list[Assignment]:
     rows = table_scope.locator("#divUppdrag table.fogisInfoTable tbody tr")
@@ -232,7 +228,9 @@ def _parse_assignments(table_scope) -> list[Assignment]:
         )
     return assignments
 
+
 def _write_assignments_csv(assignments: list[Assignment], path: str) -> None:
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(
             handle,
@@ -268,10 +266,10 @@ def get_schedule(
     headless: bool = True,
     debug: bool = False,
     screenshot_path: Optional[str] = None,
-) -> tuple[str, str]:
+    output_path: str = DEFAULT_OUTPUT_PATH,
+) -> LoginResult:
 
     # Load username and password from environment variables
-
     dotenv = importlib.import_module("dotenv") if _has_dotenv() else None
     if dotenv is not None:
         dotenv.load_dotenv(override=True)
@@ -279,8 +277,8 @@ def get_schedule(
     password = os.environ.get("FOGIS_PASSWORD")
     if username is None or password is None:
         return LoginResult(
-            ok=False, 
-            final_url=url, 
+            ok=False,
+            final_url=url,
             error="Username or password is not set"
         )
 
@@ -291,10 +289,10 @@ def get_schedule(
         headless=headless,
         debug=debug,
         screenshot_path=screenshot_path,
+        output_path=output_path,
     )
 
 
-
 if __name__ == "__main__":
-    result  = get_schedule(debug=True, screenshot_path="login_debug.png")
+    result = get_schedule(debug=True, screenshot_path="login_debug.png")
     print(result)
