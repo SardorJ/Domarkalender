@@ -74,6 +74,19 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Märsta IK - Strömsbergs IF
+DTSTART;TZID=Europe/Stockholm:20260816T160000
+DTEND;TZID=Europe/Stockholm:20260816T180000
+DESCRIPTION:Tävling: Division 4 Herr Uppland\nOmgång: 15\nMatchnr: 17010
+ 1088\nDomare: (Dom) Sardor Jurayev Lämna återbud\nNoteringar: 
+LOCATION:Midgårdsvallen Konstgräs
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FC Segeltorp (f.d. Botkyrka Kuluspor) - Segeltorps IF Fotboll
 DTSTART;TZID=Europe/Stockholm:20260822T140000
 DTEND;TZID=Europe/Stockholm:20260822T160000
