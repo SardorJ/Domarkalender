@@ -2,21 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:Boo FF - IK Viljan Strängnäs
-DTSTART;TZID=Europe/Stockholm:20260628T131500
-DTEND;TZID=Europe/Stockholm:20260628T151500
-DESCRIPTION:Tävling: Div 1 Mellersta\, dam 2026\nOmgång: 13\nMatchnr: 00
- 0222085\nDomare: (Dom) Sardor Jurayev (AD1) Mohammad Jabber Tel: saknas\, 
- Mobil:0734444957 (AD2) Josef Baker Alkassam Tel: saknas\, Mobil:0735598179
- \nNoteringar: 
-LOCATION:Boovallen 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Enskede IK - BK Häcken
 DTSTART;TZID=Europe/Stockholm:20260725T150000
 DTEND;TZID=Europe/Stockholm:20260725T170000
