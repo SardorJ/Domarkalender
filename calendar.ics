@@ -20,8 +20,9 @@ SUMMARY:Rågsveds IF - Syrianska FC
 DTSTART;TZID=Europe/Stockholm:20260808T160000
 DTEND;TZID=Europe/Stockholm:20260808T180000
 DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 16\nMatc
- hnr: 000023111\nDomare: (AD1) Sardor Jurayev (AD2) Kim Khazzaka Tel:070480
- 9510\, Mobil:0704809510\nNoteringar: 
+ hnr: 000023111\nDomare: (Dom) Joel Lindström Tel: saknas\, Mobil:07690174
+ 61 (AD1) Sardor Jurayev (AD2) Kim Khazzaka Tel:0704809510\, Mobil:07048095
+ 10\nNoteringar: 
 LOCATION:Hagsätra IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -49,8 +50,9 @@ SUMMARY:Fittja IF - Rågsveds IF
 DTSTART;TZID=Europe/Stockholm:20260816T140000
 DTEND;TZID=Europe/Stockholm:20260816T160000
 DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 17\nMatc
- hnr: 000023114\nDomare: (AD1) Sardor Jurayev (AD2) Sawez Ahmad Tel: saknas
- \, Mobil:0737132751\nNoteringar: 
+ hnr: 000023114\nDomare: (Dom) Pontus Östlin Tel: saknas\, Mobil:073807267
+ 2 (AD1) Sardor Jurayev (AD2) Sawez Ahmad Tel: saknas\, Mobil:0737132751\nN
+ oteringar: 
 LOCATION:Fittja BP 1
 BEGIN:VALARM
 ACTION:DISPLAY
