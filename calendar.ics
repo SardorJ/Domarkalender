@@ -2,20 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:Enskede IK - BK Häcken
-DTSTART;TZID=Europe/Stockholm:20260725T150000
-DTEND;TZID=Europe/Stockholm:20260725T170000
-DESCRIPTION:Tävling: Elitettan 2026\nOmgång: 11\nMatchnr: 000206075\nDom
- are: (Dom) Jesper Fredholm Tel: saknas\, Mobil:0734417047 (AD1) Abwe Masim
- ango Tel: saknas\, Mobil:0739486400 (AD2) Sardor Jurayev\nNoteringar: 
-LOCATION:Enskede IP 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Täby FK - Västerås SK FK Dam
 DTSTART;TZID=Europe/Stockholm:20260726T140000
 DTEND;TZID=Europe/Stockholm:20260726T160000
