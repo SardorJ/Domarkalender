@@ -2,21 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:Täby FK - Västerås SK FK Dam
-DTSTART;TZID=Europe/Stockholm:20260726T140000
-DTEND;TZID=Europe/Stockholm:20260726T160000
-DESCRIPTION:Tävling: Träningsmatch Dam Div.1\nOmgång: 1\nMatchnr: 15095
- 6028\nDomare: (Dom) Sardor Jurayev (AD1) Elton Aftonkrantz Tel:0739805807\
- , Mobil:0739805807 (AD2) Victor Cajander Soto Tel:0762196217\, Mobil:07621
- 96217\nNoteringar: 
-LOCATION:Tibblevallen (Täby SC 1)
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rågsveds IF - Syrianska FC
 DTSTART;TZID=Europe/Stockholm:20260808T160000
 DTEND;TZID=Europe/Stockholm:20260808T180000
