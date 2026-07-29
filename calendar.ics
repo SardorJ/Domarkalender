@@ -6,7 +6,9 @@ SUMMARY:Täby FK - PCS (USA)
 DTSTART;TZID=Europe/Stockholm:20260804T200000
 DTEND;TZID=Europe/Stockholm:20260804T220000
 DESCRIPTION:Tävling: Träningsmatch Herr Div.2-3\nOmgång: 1\nMatchnr: 15
- 0955055\nDomare: (Dom) Sardor Jurayev\nNoteringar: 
+ 0955055\nDomare: (Dom) Sardor Jurayev (AD1) Agaton Kopparberg Tel: saknas\
+ , Mobil:0707507436 (AD2) Kacper Eryk Kasinski Tel: saknas\, Mobil:07225134
+ 06\nNoteringar: 
 LOCATION:Tibblevallen (Täby SC 2)
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -34,8 +36,9 @@ SUMMARY:Karlbergs BK - GIF Sundsvall
 DTSTART;TZID=Europe/Stockholm:20260809T140000
 DTEND;TZID=Europe/Stockholm:20260809T160000
 DESCRIPTION:Tävling: P19 Superettan Norra 2026\nOmgång: 15\nMatchnr: 000
- 432103\nDomare: (Dom) Sardor Jurayev (AD2) Olle Bergman Tel: saknas\, Mobi
- l:0723361015\nNoteringar: 
+ 432103\nDomare: (Dom) Sardor Jurayev (AD1) Yousif Basil Jollow Tel: saknas
+ \, Mobil:0737882801 (AD2) Olle Bergman Tel: saknas\, Mobil:0723361015\nNot
+ eringar: 
 LOCATION:Stadshagens IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
