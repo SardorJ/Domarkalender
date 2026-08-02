@@ -17,28 +17,13 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kungsängens IF - IFK Lidingö FK
-DTSTART;TZID=Europe/Stockholm:20260807T190000
-DTEND;TZID=Europe/Stockholm:20260807T210000
-DESCRIPTION:Tävling: Div 2 Norra Svealand\, herr 2026\nOmgång: 16\nMatch
- nr: 000022109\nDomare: (Dom) Delaurence Masimango Tel: saknas\, Mobil:0720
- 105268 (AD1) Sardor Jurayev (AD2) Mohamed Abdirisak Mahdi Tel: saknas\, Mo
- bil:0700461453\nNoteringar: 
-LOCATION:Kungsängens IP 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Rågsveds IF - Syrianska FC
 DTSTART;TZID=Europe/Stockholm:20260808T160000
 DTEND;TZID=Europe/Stockholm:20260808T180000
 DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 16\nMatc
  hnr: 000023111\nDomare: (Dom) Joel Lindström Tel: saknas\, Mobil:07690174
- 61 (AD1) Sardor Jurayev (AD2) Tillsätts av C4 Stockholm Tel: saknas\, Mob
- il: saknas\nNoteringar: 
+ 61 (AD1) Sardor Jurayev (AD2) Tillsätts senare av Arash Borna Tel: saknas
+ \, Mobil: saknas\nNoteringar: 
 LOCATION:Hagsätra IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -62,14 +47,14 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:IFK Stockholm FK - Älvsjö AIK FF
-DTSTART;TZID=Europe/Stockholm:20260815T140000
-DTEND;TZID=Europe/Stockholm:20260815T160000
-DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 14\nMatchnr: 150003083\nDo
- mare: (Dom) Sardor Jurayev Lämna återbud (AD1) Robin Yorulmaz Tel: sakna
- s\, Mobil:0760565436 (AD2) Cafer Mermer Tel: saknas\, Mobil:0709327052\nNo
- teringar: 
-LOCATION:Vårbergs IP 1
+SUMMARY:Ängby IF - Kungsängens IF
+DTSTART;TZID=Europe/Stockholm:20260815T130000
+DTEND;TZID=Europe/Stockholm:20260815T150000
+DESCRIPTION:Tävling: Div 2 Norra Svealand\, herr 2026\nOmgång: 17\nMatch
+ nr: 000022119\nDomare: (Dom) Martin Hallén Almroth Tel:0723330023\, Mobil
+ :0723330023 (AD1) Kamal Berrahmoune Tel:0735139677\, Mobil:0735139677 (AD2
+ ) Sardor Jurayev\nNoteringar: 
+LOCATION:Ängby IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Påminnelse: Match imorgon!
