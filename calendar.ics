@@ -36,8 +36,9 @@ SUMMARY:Märsta IK - Strömsbergs IF
 DTSTART;TZID=Europe/Stockholm:20260816T160000
 DTEND;TZID=Europe/Stockholm:20260816T180000
 DESCRIPTION:Tävling: Division 4 Herr Uppland\nOmgång: 15\nMatchnr: 17010
- 1088\nDomare: (Dom) Sardor Jurayev (AD2) Paulus Hanna Tel:0709436356\, Mob
- il:0709436356\nNoteringar: 
+ 1088\nDomare: (Dom) Sardor Jurayev (AD1) Aland Hussein Tel: saknas\, Mobil
+ :0769435904 (AD2) Paulus Hanna Tel:0709436356\, Mobil:0709436356\nNotering
+ ar: 
 LOCATION:Midgårdsvallen Konstgräs
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -50,9 +51,8 @@ SUMMARY:FC Segeltorp (f.d. Botkyrka Kuluspor) - Segeltorps IF Fotboll
 DTSTART;TZID=Europe/Stockholm:20260822T140000
 DTEND;TZID=Europe/Stockholm:20260822T160000
 DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 16\nMatchnr: 150003093\nDo
- mare: (Dom) Sardor Jurayev Lämna återbud (AD1) Isak Andric Tel: saknas\,
-  Mobil:0725272124 (AD2) Mirac Alp Tel: saknas\, Mobil:0760631295\nNotering
- ar: 
+ mare: (Dom) Sardor Jurayev Lämna återbud (AD2) Mirac Alp Tel: saknas\, M
+ obil:0760631295\nNoteringar: 
 LOCATION:Segeltorps IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
