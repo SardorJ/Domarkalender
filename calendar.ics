@@ -2,21 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:Boo FF - Gamla Upsala SK
-DTSTART;TZID=Europe/Stockholm:20260812T184500
-DTEND;TZID=Europe/Stockholm:20260812T204500
-DESCRIPTION:Tävling: Svenska Cupen 2026/27 omg. 1-3\nOmgång: 2\nMatchnr:
-  000361027\nDomare: (Dom) Moa Wettby Tel: saknas\, Mobil:0766070874 (AD1) 
- Sardor Jurayev (AD2) Yassin Oummadi Tel: saknas\, Mobil:0707426344\nNoteri
- ngar: 
-LOCATION:Boovallen 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Ängby IF - Kungsängens IF
 DTSTART;TZID=Europe/Stockholm:20260815T130000
 DTEND;TZID=Europe/Stockholm:20260815T150000
