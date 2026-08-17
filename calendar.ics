@@ -16,6 +16,20 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Nacka FC - Smedby AIS
+DTSTART;TZID=Europe/Stockholm:20260905T120000
+DTEND;TZID=Europe/Stockholm:20260905T140000
+DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 20\nMatc
+ hnr: 000023137\nDomare: (AD1) Vedad Kestendzic Tel: saknas\, Mobil:0737771
+ 154 (AD2) Sardor Jurayev\nNoteringar: 
+LOCATION:Myrsjö IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FC Tyresö United - Stuvsta IF
 DTSTART;TZID=Europe/Stockholm:20260906T180000
 DTEND;TZID=Europe/Stockholm:20260906T200000
