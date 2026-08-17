@@ -15,4 +15,64 @@ DESCRIPTION:Påminnelse: Match imorgon!
 TRIGGER:-P1D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FC Tyresö United - Stuvsta IF
+DTSTART;TZID=Europe/Stockholm:20260906T180000
+DTEND;TZID=Europe/Stockholm:20260906T200000
+DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 18\nMatchnr: 150003108\nDo
+ mare: (Dom) Sardor Jurayev Lämna återbud (AD1) Adam Güclü Tel: saknas\
+ , Mobil:0762979395 (AD2) Anton Nyström Tel:0767822006\, Mobil:0767822006\
+ nNoteringar: 
+LOCATION:Tyresövallen A 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Djurgårdens IF FF - AIK FF
+DTSTART;TZID=Europe/Stockholm:20260919T140000
+DTEND;TZID=Europe/Stockholm:20260919T160000
+DESCRIPTION:Tävling: F19 Allsvenskan 2026\nOmgång: 20\nMatchnr: 00061013
+ 5\nDomare: (Dom) Sardor Jurayev (AD1) Norah Lindegård Tel: saknas\, Mobil
+ :0734400170 (AD2) Josef Baker Alkassam Tel: saknas\, Mobil:0735598179\nNot
+ eringar: 
+LOCATION:Kristinebergs IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Huddinge IF - Boo FF
+DTSTART;TZID=Europe/Stockholm:20261017T150000
+DTEND;TZID=Europe/Stockholm:20261017T170000
+DESCRIPTION:Tävling: P19 Superettan Norra 2026\nOmgång: 25\nMatchnr: 000
+ 432171\nDomare: (Dom) Sardor Jurayev (AD1) Mohammad Jabber Tel: saknas\, M
+ obil:0734444957 (AD2) Tillsätts av Stockholms FF Tel: saknas\, Mobil: sak
+ nas\nNoteringar: 
+LOCATION:Källbrinks IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IF Brommapojkarna - IFK Norrköping FK
+DTSTART;TZID=Europe/Stockholm:20261101T130000
+DTEND;TZID=Europe/Stockholm:20261101T150000
+DESCRIPTION:Tävling: P17 Allsvenskan A-slutspel\nOmgång: 13\nMatchnr: 00
+ 0463086\nDomare: (Dom) Sardor Jurayev (AD1) Tillsätts av Stockholms FF Te
+ l: saknas\, Mobil: saknas (AD2) Tillsätts av Stockholms FF Tel: saknas\, 
+ Mobil: saknas\nNoteringar: 
+LOCATION:Grimsta IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
