@@ -16,6 +16,20 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Enskede IK - Jitex BK
+DTSTART;TZID=Europe/Stockholm:20260830T150000
+DTEND;TZID=Europe/Stockholm:20260830T170000
+DESCRIPTION:Tävling: Elitettan 2026\nOmgång: 16\nMatchnr: 000206112\nDom
+ are: (Dom) Joel Lindström Tel: saknas\, Mobil:0769017461 (AD1) Kim Khazza
+ ka Tel:0704809510\, Mobil:0704809510 (AD2) Sardor Jurayev\nNoteringar: 
+LOCATION:Enskede IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Nacka FC - Smedby AIS
 DTSTART;TZID=Europe/Stockholm:20260905T120000
 DTEND;TZID=Europe/Stockholm:20260905T140000
@@ -53,6 +67,20 @@ DESCRIPTION:Tävling: F19 Allsvenskan 2026\nOmgång: 20\nMatchnr: 00061013
  :0734400170 (AD2) Josef Baker Alkassam Tel: saknas\, Mobil:0735598179\nNot
  eringar: 
 LOCATION:Kristinebergs IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IFK Haninge - Smedby AIS
+DTSTART;TZID=Europe/Stockholm:20260927T130000
+DTEND;TZID=Europe/Stockholm:20260927T150000
+DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 23\nMatc
+ hnr: 000023157\nDomare: (AD1) Kamal Berrahmoune Tel:0735139677\, Mobil:073
+ 5139677 (AD2) Sardor Jurayev\nNoteringar: 
+LOCATION:Torvalla IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Påminnelse: Match imorgon!
