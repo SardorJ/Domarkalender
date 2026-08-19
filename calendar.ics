@@ -6,8 +6,8 @@ SUMMARY:FC Segeltorp (f.d. Botkyrka Kuluspor) - Segeltorps IF Fotboll
 DTSTART;TZID=Europe/Stockholm:20260822T140000
 DTEND;TZID=Europe/Stockholm:20260822T160000
 DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 16\nMatchnr: 150003093\nDo
- mare: (Dom) Sardor Jurayev (AD2) Mirac Alp Tel: saknas\, Mobil:0760631295\
- nNoteringar: 
+ mare: (Dom) Sardor Jurayev (AD2) Mirac Alp Tel: saknas\, Mobil:0760631295
+ \nNoteringar: 
 LOCATION:Segeltorps IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -49,9 +49,9 @@ SUMMARY:FC Tyresö United - Stuvsta IF
 DTSTART;TZID=Europe/Stockholm:20260906T180000
 DTEND;TZID=Europe/Stockholm:20260906T200000
 DESCRIPTION:Tävling: Herrar 4 Södra\nOmgång: 18\nMatchnr: 150003108\nDo
- mare: (Dom) Sardor Jurayev Lämna återbud (AD1) Adam Güclü Tel: saknas\
- , Mobil:0762979395 (AD2) Anton Nyström Tel:0767822006\, Mobil:0767822006\
- nNoteringar: 
+ mare: (Dom) Sardor Jurayev Lämna återbud (AD1) Adam Güclü Tel: saknas
+ \, Mobil:0762979395 (AD2) Anton Nyström Tel:0767822006\, Mobil:0767822006
+ \nNoteringar: 
 LOCATION:Tyresövallen A 1
 BEGIN:VALARM
 ACTION:DISPLAY
