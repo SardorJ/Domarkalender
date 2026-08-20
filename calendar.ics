@@ -45,6 +45,20 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Preben BoIS - Kungsholmen United FF
+DTSTART;TZID=Europe/Stockholm:20260905T160000
+DTEND;TZID=Europe/Stockholm:20260905T180000
+DESCRIPTION:Tävling: Herrar 7 D\nOmgång: 14\nMatchnr: 150016101\nDomare:
+  (Dom) Rany Sammi Tel: saknas\, Mobil:0737395499 (Obs) Sardor Jurayev Läm
+ na återbud\nNoteringar: 
+LOCATION:Hägerstensåsens BP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:FC Tyresö United - Stuvsta IF
 DTSTART;TZID=Europe/Stockholm:20260906T180000
 DTEND;TZID=Europe/Stockholm:20260906T200000
