@@ -16,13 +16,26 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Vasalund - IFK Stocksund
+DTSTART;TZID=Europe/Stockholm:20260823T130000
+DTEND;TZID=Europe/Stockholm:20260823T150000
+DESCRIPTION:Tävling: Ettan Norra\, herr 2026\nOmgång: 18\nMatchnr: 00001
+ 1144\nDomare: (Dom) Tom Ghorbani Tel: saknas\, Mobil:0700150194 (AD1) Sard
+ or Jurayev (AD2) Sawez Ahmad Tel: saknas\, Mobil:0737132751\nNoteringar: 
+LOCATION:Skytteholms IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Enskede IK - Jitex BK
 DTSTART;TZID=Europe/Stockholm:20260830T150000
 DTEND;TZID=Europe/Stockholm:20260830T170000
 DESCRIPTION:Tävling: Elitettan 2026\nOmgång: 16\nMatchnr: 000206112\nDom
- are: (Dom) Tillsätts senare av TL Tel: saknas\, Mobil: saknas (AD1) Kim K
- hazzaka Tel:0704809510\, Mobil:0704809510 (AD2) Sardor Jurayev\nNoteringar
- : 
+ are: (Dom) Camilla Friberg Tel: saknas\, Mobil:0760109979 (AD1) Kim Khazza
+ ka Tel:0704809510\, Mobil:0704809510 (AD2) Sardor Jurayev\nNoteringar: 
 LOCATION:Enskede IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
