@@ -80,7 +80,8 @@ DTSTART;TZID=Europe/Stockholm:20261017T150000
 DTEND;TZID=Europe/Stockholm:20261017T170000
 DESCRIPTION:Tävling: P19 Superettan Norra 2026\nOmgång: 25\nMatchnr: 000
  432171\nDomare: (Dom) Sardor Jurayev (AD1) Mohammad Jabber Tel: saknas\, M
- obil:0734444957\nNoteringar: 
+ obil:0734444957 (AD2) Dimitrios Grigoriadis Tel:0761005390\, Mobil:0761005
+ 390\nNoteringar: 
 LOCATION:Källbrinks IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
