@@ -2,35 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:Nacka FC - Smedby AIS
-DTSTART;TZID=Europe/Stockholm:20260905T120000
-DTEND;TZID=Europe/Stockholm:20260905T140000
-DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 20\nMatc
- hnr: 000023137\nDomare: (Dom) Kilian Störzel Tel: saknas\, Mobil:07306925
- 61 (AD1) Senharib Asmar Tel: saknas\, Mobil:0708502078 (AD2) Sardor Juraye
- v\nNoteringar: 
-LOCATION:Myrsjö IP 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Preben BoIS - Kungsholmen United FF
-DTSTART;TZID=Europe/Stockholm:20260905T160000
-DTEND;TZID=Europe/Stockholm:20260905T180000
-DESCRIPTION:Tävling: Herrar 7 D\nOmgång: 14\nMatchnr: 150016101\nDomare:
-  (Dom) Rany Sammi Tel: saknas\, Mobil:0737395499 (Obs) Sardor Jurayev\nNot
- eringar: 
-LOCATION:Hägerstensåsens BP 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:FC Tyresö United - Stuvsta IF
 DTSTART;TZID=Europe/Stockholm:20260906T190000
 DTEND;TZID=Europe/Stockholm:20260906T210000
