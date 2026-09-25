@@ -2,21 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:IF Brommapojkarna - IFK Norrköping FK
-DTSTART;TZID=Europe/Stockholm:20260924T120000
-DTEND;TZID=Europe/Stockholm:20260924T140000
-DESCRIPTION:Tävling: Ligacupen Elit Norra\nOmgång: 3\nMatchnr: 000400005
- \nDomare: (Dom) Jesper Fredholm Tel: saknas\, Mobil:0734417047 (AD1) Vedad
-  Kestendzic Tel: saknas\, Mobil:0737771154 (AD2) Sardor Jurayev\nNoteringa
- r: 
-LOCATION:Grimsta IP 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:BK Buffalo - Sickla IF
 DTSTART;TZID=Europe/Stockholm:20260925T200000
 DTEND;TZID=Europe/Stockholm:20260925T220000
