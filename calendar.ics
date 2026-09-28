@@ -2,6 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
+SUMMARY:Rågsveds IF - Smedby AIS
+DTSTART;TZID=Europe/Stockholm:20261010T160000
+DTEND;TZID=Europe/Stockholm:20261010T180000
+DESCRIPTION:Tävling: Div 2 Södra Svealand\, herr 2026\nOmgång: 25\nMatc
+ hnr: 000023174\nDomare: (Dom) Enes Köylüoglu Tel: saknas\, Mobil:0734449
+ 995 (AD1) Sardor Jurayev (AD2) Emanuel Tas Tel: saknas\, Mobil:0704280556
+ \nNoteringar: 
+LOCATION:Hagsätra IP 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Huddinge IF - Boo FF
 DTSTART;TZID=Europe/Stockholm:20261017T163000
 DTEND;TZID=Europe/Stockholm:20261017T183000
@@ -10,6 +25,20 @@ DESCRIPTION:Tävling: P19 Superettan Norra 2026\nOmgång: 25\nMatchnr: 000
  obil:0734444957 (AD2) Dimitrios Grigoriadis Tel:0761005390\, Mobil:0761005
  390\nNoteringar: 
 LOCATION:Källbrinks IP 3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Enskede IK - Trelleborgs FF
+DTSTART;TZID=Europe/Stockholm:20261018T140000
+DTEND;TZID=Europe/Stockholm:20261018T160000
+DESCRIPTION:Tävling: Elitettan 2026\nOmgång: 22\nMatchnr: 000206153\nDom
+ are: (AD1) Sardor Jurayev (AD2) Abwe Masimango Tel: saknas\, Mobil:0739486
+ 400\nNoteringar: 
+LOCATION:Enskede IP 1
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Påminnelse: Match imorgon!
