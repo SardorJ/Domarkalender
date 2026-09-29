@@ -2,6 +2,21 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
+SUMMARY:Åkersberga FC - Roslagsbro IF
+DTSTART;TZID=Europe/Stockholm:20261004T140000
+DTEND;TZID=Europe/Stockholm:20261004T160000
+DESCRIPTION:Tävling: Div 3 Norra Svealand\, herr 2026\nOmgång: 22\nMatch
+ nr: 000084132\nDomare: (Dom) Kenan Dizdarevic Tel: saknas\, Mobil:07393867
+ 47 (AD1) Roy Khazzaka Tel:0707786345\, Mobil:0707786345 (AD2) Sardor Juray
+ ev\nNoteringar: 
+LOCATION:Österåkers Friidrottsarena
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Rågsveds IF - Smedby AIS
 DTSTART;TZID=Europe/Stockholm:20261010T160000
 DTEND;TZID=Europe/Stockholm:20261010T180000
