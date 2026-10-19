@@ -2,20 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:Enskede IK - Trelleborgs FF
-DTSTART;TZID=Europe/Stockholm:20261018T140000
-DTEND;TZID=Europe/Stockholm:20261018T160000
-DESCRIPTION:Tävling: Elitettan 2026\nOmgång: 22\nMatchnr: 000206153\nDom
- are: (Dom) Theo Edung Tel: saknas\, Mobil:0730326988 (AD1) Sardor Jurayev 
- (AD2) Abwe Masimango Tel: saknas\, Mobil:0739486400\nNoteringar: 
-LOCATION:Enskede IP 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:IF Brommapojkarna - IFK Norrköping FK
 DTSTART;TZID=Europe/Stockholm:20261101T130000
 DTEND;TZID=Europe/Stockholm:20261101T150000
