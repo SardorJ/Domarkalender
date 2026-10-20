@@ -17,6 +17,21 @@ TRIGGER:-P1D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Hanvikens SK - Syrianska FC
+DTSTART;TZID=Europe/Stockholm:20261024T140000
+DTEND;TZID=Europe/Stockholm:20261024T160000
+DESCRIPTION:Tävling: Kval till div 2 herrar\, omg. 2\nOmgång: 1\nMatchnr
+ : 000306003\nDomare: (Dom) Elias Ekström Tel: saknas\, Mobil:0730522710 (
+ AD1) Fredrik Vesterholm Tel: saknas\, Mobil:0760217717 (AD2) Sardor Juraye
+ v\nNoteringar: 
+LOCATION:Trollbäckens IP 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Påminnelse: Match imorgon!
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:IF Brommapojkarna - IFK Norrköping FK
 DTSTART;TZID=Europe/Stockholm:20261101T130000
 DTEND;TZID=Europe/Stockholm:20261101T150000
