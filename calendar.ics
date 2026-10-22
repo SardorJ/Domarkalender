@@ -2,21 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Fogis Domarschema//
 BEGIN:VEVENT
-SUMMARY:IFK Bergshamra (5) - Värmdö IF (4)
-DTSTART;TZID=Europe/Stockholm:20261021T200000
-DTEND;TZID=Europe/Stockholm:20261021T220000
-DESCRIPTION:Tävling: Stockholm Cup 26/27 B\nOmgång: 6\nMatchnr: 15709507
- 4\nDomare: (Dom) Sardor Jurayev (AD1) Safwen Ouertani Tel: saknas\, Mobil:
- 0736942285 (AD2) Bogdan Shcherban Tel: saknas\, Mobil:0724487625\nNotering
- ar: 
-LOCATION:Bergshamra IP 1
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Påminnelse: Match imorgon!
-TRIGGER:-P1D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Hanvikens SK - Syrianska FC
 DTSTART;TZID=Europe/Stockholm:20261024T140000
 DTEND;TZID=Europe/Stockholm:20261024T160000
